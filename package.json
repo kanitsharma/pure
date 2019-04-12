@@ -9,7 +9,7 @@
   "scripts": {
     "start": "rollup --watch --config --configDebug",
     "build": "rollup --config --configDebug",
-    "test": "ava"
+    "test": "npm run build && ava"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
