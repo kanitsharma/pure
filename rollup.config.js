@@ -2,6 +2,7 @@ import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import run from 'rollup-plugin-run';
+import { terser } from 'rollup-plugin-terser';
 
 const dev = process.env.ROLLUP_WATCH === 'true';
 
@@ -19,5 +20,6 @@ export default {
     resolve(),
     commonjs(),
     dev && run(),
+    !dev && terser(),
   ],
 };
