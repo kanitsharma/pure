@@ -1,0 +1,12 @@
+{
+  "name": "pure",
+  "version": "0.0.1",
+  "description": "Quick node package boilerplate",
+  "main": "src/index.js",
+  "author": "kanitsharma",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
