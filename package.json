@@ -9,7 +9,7 @@
   "scripts": {
     "start": "rollup --watch --config=config/build.js --configDebug",
     "build": "rollup --config=config/build.js --configDebug",
-    "test": "npm run build && ava"
+    "test": "npm run build && ava --tap | tap-nyan"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -29,6 +29,7 @@
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-run": "^1.1.0",
-    "rollup-plugin-terser": "^4.0.4"
+    "rollup-plugin-terser": "^4.0.4",
+    "tap-nyan": "^1.1.0"
   }
 }
