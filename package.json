@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "start": "rollup --watch --config --configDebug",
-    "build": "rollup --config --configDebug",
+    "start": "rollup --watch --config=config/build.js --configDebug",
+    "build": "rollup --config=config/build.js --configDebug",
     "test": "npm run build && ava"
   },
   "devDependencies": {
