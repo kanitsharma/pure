@@ -2,7 +2,7 @@
   Pure
 </h1>
 
-<h4 align="center">A skeleton to build npm packages, built with Rollup and Babel.</h4>
+<h4 align="center">A skeleton to build npm packages, built with Rollup and Babel and all the latest stuff.</h4>
 
 <p align="center">
   <a href="https://github.com/prettier/prettier">
